@@ -21,6 +21,7 @@ class HangpersonApp < Sinatra::Base
     redirect '/new'
   end
   
+  # This is a test
   get '/new' do
     erb :new
   end
